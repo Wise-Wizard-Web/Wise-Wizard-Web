@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&family=Geologica:wght@100..900&family=Graduate&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <title>Web Wizards</title>
+    <link rel="icon" href="image/logo.webp">
+    <meta name="description" content="Especialistas en diseño web para pequeñas empresas y emprendedores. Incrementa tus ventas y visibilidad online con nuestros servicios personalizados.">
+    <meta name="keywords" content=""> <!-- añadir palabras clave para mejorar la busqueda en los navegadores -->
+    <meta name="author" content="Wise Wizard Web"> <!-- autor del codigo -->
+</head>
+<body>
+<!--   Bloque Header   -->
+<header id="header" class="header">
+    <input type="checkbox" class="header__checkbox" id="open-menu">
+    <label for="open-menu" class="header__open-nav-button"><strong>☰</strong></label>
+    <div class="header__logo-container">
+        <a href="#main">
+            <img class="header__logo" src="image/logo empresa/icono solo.webp" alt="Logo">
+        </a>
+    </div>
+    <nav class="header__nav">
+        <ul class="header__nav-list">
+            <li class="header__nav-item"><a href="#notificaciones">Notificaciones</a></li>
+            <li class="header__nav-item"><a href="#login">Iniciar Sesión</a></li>
+            <li class="header__nav-item"><a href="#registro">Registro</a></li>
+        </ul>
+    </nav>
+</header>
+<!--   Fin Bloque Header   -->
+<section>
+    <div id="login" class="form-container hidden">
+        <h2>Inicio de Sesión</h2>
+        <form>
+            <label for="login-username">Usuario:</label>
+            <input type="text" id="login-username" name="username">
+            <label for="login-password">Contraseña:</label>
+            <input type="password" id="login-password" name="password">
+            <button type="submit">Ingresar</button>
+        </form>
+    </div>
+</section>
+<section>
+    <div id="registro" class="form-container hidden">
+        <h2>Registro</h2>
+        <form>
+            <label for="register-username">Usuario:</label>
+            <input type="text" id="register-username" name="username">
+            <label for="register-password">Contraseña:</label>
+            <input type="password" id="register-password" name="password">
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+</section>
+<!--  Bloque Main   -->
+<main id="main" class="main">
+    <section class="main__profile">
+        <div class="slider">
+            <div class="slides">
+                <img src="image/NUEVA_PAGINA/img_principal_hd/00_00.webp" alt="">
+                <img src="image/NUEVA_PAGINA/img_principal_hd/00_01.webp" alt="">
+                <img src="image/NUEVA_PAGINA/img_principal_hd/00_02.webp" alt="">
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="dots">
+                <span class="dot" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+</main>
+
+<section id="servicios">
+    <div class="servicios-child">
+        <h2>NUESTROS SERVICIOS</h2>
+        <p>Ofrecemos servicios de diseño web a medida, adaptándonos a las necesidades y preferencias de cada cliente. Nos esforzamos por combinar estética y funcionalidad para proporcionar una presencia en línea efectiva y profesional.</p>
+    </div>
+    <div class="servicios-child">
+        <img class="servicios-img" src="image/NUEVA_PAGINA/planes/10.webp" alt="servicios">
+    </div>
+</section>
+
+<!--   Fin Bloque Main   -->
+<section id="contacto">
+    <form id="contact-form">
+        <h2>CONTACTA CON NOSOTROS</h2>
+        <div class="form-input">
+            <label for="from_name">¿Cómo se llama?</label>
+            <input type="text" name="from_name" id="from_name" placeholder="Nombre y Apellido">
+        </div>
+        <div class="form-input">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" name="email" id="email" placeholder="Ejemplo@mail.com">
+        </div>
+        <div class="form-input message">
+            <label for="message">Comentarios</label>
+            <textarea name="message" id="message" placeholder="Deje su mensaje"></textarea>
+        </div>
+        <div class="form-input">
+            <input type="submit" id="button" value="Enviar">
+        </div>
+    </form>
+</section>
+<!--  Bloque Porfolio   --> 
+<section id="portfolio">
+    <div class="portfolio__titulo portfolio__container">
+        <h2>PORTFOLIO</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veniam earum voluptas velit aperiam distinctio deserunt recusandae iure obcaecati, sunt autem fugit corrupti similique culpa provident corporis delectus rem maxime!</p>
+    </div>
+    <div class="portfolio__item portfolio__container">
+        <div class="neon-box portfolio__ropa">
+            <div class="portfolio__categorias-link">
+                <a href="../02_Portfolio_Ropa/index.html">VER DEMO</a>
+            </div>
+        </div>
+        <div class="neon-box portfolio__cocina">
+            <div class="portfolio__categorias-link">
+                <a href="../03_Portfolio_Cocina/index.html">VER DEMO</a>
+            </div>
+        </div>
+        <div class="neon-box portfolio__arte">
+            <div class="portfolio__categorias-link">
+                <a href="../01_Portfolio_Arte/index.html">VER DEMO</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  Fin Bloque Porfolio   -->
+    <section id="biblioteca">
+        <div class="biblioteca__child">
+            <div class="biblioteca__child-item neon-box">
+                <h3>TITULO</h3>
+                <p>VER MAS</p>
+            </div>
+            <div class="biblioteca__child-item neon-box">
+                <h3>TITULO</h3>
+                <p>VER MAS</p>
+            </div>
+            <div class="biblioteca__child-item neon-box">
+                <h3>TITULO</h3>
+                <p>VER MAS</p>
+            </div>
+        </div>
+        <div class="biblioteca__child">
+            <h2>BIBLIOTECA</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cum voluptas culpa vel, a, officia in sit quas aspernatur nihil iure consequatur harum? Harum cum molestiae deleniti, laborum debitis libero?</p>
+        </div>
+    </section>
+    <section id="planes">
+        <div class="planes__child">
+            <h2>PLANES</h2>
+            <p>Conoce nuestros servicios pensados y adaptados a tus necesitades!</p>
+        </div>
+        <div class="planes__child">
+            <div class="planes__child-item neon-box">
+                <h3>Plan Básico</h3>
+                <img src="image/NUEVA_PAGINA/planes/planes1.webp" alt="">
+                <a href="#plan">VER MAS</a>
+            </div>
+            <div class="planes__child-item neon-box">
+                <h3>Plan Profesional</h3>
+                <img src="image/NUEVA_PAGINA/planes/planes2.webp" alt="">
+                <a href="#plan">VER MAS</a>
+            </div>
+            <div class="planes__child-item neon-box">
+                <h3>Plan Premium</h3>
+                <img src="image/NUEVA_PAGINA/planes/planes3.webp" alt="">
+                <a href="#plan">VER MAS</a>
+            </div>
+        </div>
+    </section>
+<!--  Bloque Planes   -->
+<section id="plan" class="content hidden">
+    <div class="plans-container">
+        <div class="plan">
+            <h2>Plan Básico</h2>
+            <ul>
+                <li>Diseño responsivo básico</li>
+                <li>Hasta 5 páginas</li>
+                <li>Integración con redes sociales</li>
+                <li>Formulario de contacto simple</li>
+                <li>Optimización básica para motores de búsqueda (SEO)</li>
+                <li>Soporte por 1 mes</li>
+            </ul>
+            <div class="price">100USD</div>
+            <div class="price__button"> <!-- Corregido aquí -->
+                <a href="pagos/enlaces_paypal/paypal_button_container.html" onclick="openCenteredWindow(this.href, 450, 500); return false;">Comprar</a>
+            </div>
+        </div>
+        <div class="plan">
+            <h2>Plan Profesional</h2>
+            <ul>
+                <li>Todo lo incluido en el Plan Básico</li>
+                <li>Diseño personalizado y profesional</li>
+                <li>Hasta 10 páginas</li>
+                <li>Blog con gestión de contenido</li>
+                <li>Integración con Google Analytics</li>
+                <li>Formulario de contacto avanzado con validación y spam protection</li>
+                <li>Optimización avanzada para motores de búsqueda (SEO)</li>
+                <li>Integración de boletín de noticias</li>
+                <li>Soporte por 3 meses</li>
+            </ul>
+            <div class="price">300USD</div>
+            <div class="price__button">
+                <a id="buy-button" href="pagos/enlaces_paypal/paypal_button_container_2.html" onclick="openCenteredWindow(this.href, 450, 500); return false;" class="disabled">Comprar</a>
+            </div>
+        </div>
+        <div class="plan">
+            <h2>Plan Premium</h2>
+            <ul>
+                <li>Todo lo incluido en el Plan Profesional</li>
+                <li>Diseño exclusivo y completamente personalizado</li>
+                <li>Páginas ilimitadas</li>
+                <li>Tienda online con hasta 50 productos</li>
+                <li>Integración con pasarelas de pago</li>
+                <li>Optimización completa para motores de búsqueda (SEO)</li>
+                <li>Integración con herramientas de marketing</li>
+                <li>Funcionalidades avanzadas (chat en vivo, reservas, etc.)</li>
+                <li>Formación para el equipo sobre el uso y gestión del sitio web</li>
+                <li>Soporte por 6 meses</li>
+            </ul>
+            <div class="price">500USD</div>
+            <div class="price__button"> <!-- Corregido aquí -->
+                <a href="pagos/enlaces_paypal/paypal_button_container_3.html" onclick="openCenteredWindow(this.href, 450, 500); return false;">Comprar</a>
+            </div>
+        </div>
+        <input type="checkbox" id="terms-checkbox" name="terms">
+            <label for="terms-checkbox">Al hacer clic en "Comprar" usted está de acuerdo con nuestros <a href="ENLACE_DEL_DOCUMENTO" target="_blank">Términos y Condiciones</a></label>
+    </div>
+</section>
+
+<!--  Fin Bloque Planes  -->
+
+<!--  Bloque Footer   -->
+<footer id="footer">
+    <div class="footer-top">
+        <div class="footer-slogan">
+            <img class="footer-image" src="image/logo empresa/blanco/WEBP/icono al lado.webp" alt="logo footer">
+        </div>
+        <div class="footer-links">
+            <h4>Aspectos legales</h4>
+            <ul>
+                <li><a class="materia-symbols-outlined" href="https://">Políticas de privacidad</a></li>
+                <li><a class="materia-symbols-outlined" href="https://">Aviso legal</a></li>
+                <li><a class="materia-symbols-outlined" href="https://">Cookies</a></li>
+            </ul>
+        </div>
+        <div class="footer-contacto">
+            <h4>Contáctanos</h4>
+            <p><strong>Email:</strong> hola@mail.com<br><strong>Email2:</strong> hola2@mail.com</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank" class="social-media__link"><img src="image/redes/webp/facebook400x400.webp" alt="Facebook"></a>
+                <a href="https://www.twitter.com" target="_blank" class="social-media__link"><img src="image/redes/webp/x400x400.webp" alt="Twitter"></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-media__link"><img src="image/redes/webp/instagram400x400.webp" alt="Instagram"></a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-media__link"><img src="image/redes/webp/linkedin400x400.webp" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="copyright">
+            <p>© <span id="current-year"></span> Wise Wizard Web. All Rights Reserved</p>
+        </div>
+    </div>
+</footer>
+<div class="modal-overlay hidden"></div>
+<!--   Fin Bloque Footer   -->
+<!--   Script   -->
+<script src="script.js"></script>
+<script src="banner.js"></script>
+<script src="hidden.js"></script>
+</body>
+</html>
