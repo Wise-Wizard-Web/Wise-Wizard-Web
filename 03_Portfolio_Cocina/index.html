@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Graduate&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Smooth Scroll Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#inicio"><strong>Inicio</strong></a></li>
+                    <li class="header__nav-item"><a href="#menu"><strong>Menú</strong></a></li>
+                    <li class="header__nav-item"><a href="#reservas"><strong>Reservas</strong></a></li>
+                    <li class="header__nav-item"><a href="#contacto"><strong>Contacto</strong></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <h1><strong>NOMBRE DEL RESTAURANTE</strong></h1>
+        <h2><strong>LEMA DEL RESTO</strong></h2>
+        <div class="main-btn">
+            <a href="">Menú</a>
+        </div>
+    </main>
+    <section id="menu">
+        <div>
+            <div class="section__titulo">
+                <h2>MENU</h2>
+            </div>
+            <div class="section__subtitulo">
+                <p>SECTOR DEL MENU</p>
+            </div>
+            <div class="menu__lista">
+                <div class="menu__lista-item">
+                    <h3>PLATO</h3>
+                    <div class="menu__lista-item-p">
+                        <p>Descripcion del plato</p>
+                        <p>$$$</p>
+                    </div>
+                </div>
+                <div class="menu__lista-item">
+                    <h3>PLATO</h3>
+                    <div class="menu__lista-item-p">
+                        <p>Descripcion del plato</p>
+                        <p>$$$</p>
+                    </div>
+                </div>
+                <div class="menu__lista-item">
+                    <h3>PLATO</h3>
+                    <div class="menu__lista-item-p">
+                        <p>Descripcion del plato</p>
+                        <p>$$$</p>
+                    </div>
+                </div>
+                <div class="menu__lista-item">
+                    <h3>PLATO</h3>
+                    <div class="menu__lista-item-p">
+                        <p>Descripcion del plato</p>
+                        <p>$$$</p>
+                    </div>
+                </div>
+                <div class="menu__lista-item">
+                    <h3>PLATO</h3>
+                    <div class="menu__lista-item-p">
+                        <p>Descripcion del plato</p>
+                        <p>$$$</p>
+                    </div>
+                </div>
+                <div class="menu__lista-item">
+                    <h3>PLATO</h3>
+                    <div class="menu__lista-item-p">
+                        <p>Descripcion del plato</p>
+                        <p>$$$</p>
+                    </div>
+                </div>
+                <div class="menu__lista-item">
+                    <h3>PLATO</h3>
+                    <div class="menu__lista-item-p">
+                        <p>Descripcion del plato</p>
+                        <p>$$$</p>
+                    </div>
+                </div>
+                <div class="menu__lista-item">
+                    <h3>PLATO</h3>
+                    <div class="menu__lista-item-p">
+                        <p>Descripcion del plato</p>
+                        <p>$$$</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reservas">
+        <div class="reservas-child">
+            <div>
+                <h2 class="section__titulo">RESERVA UNA MESA</h2>
+            </div>
+            <div>
+                <p class="section__subtitulo">Para poder ofrecerte la mejor mesa, selecciona la cantidad de personas, la fecha y el horario de reserva.</p>
+            </div>
+            <div class="reservas-btn">
+                <a href="">RESERVA</a>
+            </div>
+        </div>
+        <div class="reservas-child">
+            <div>
+                <h2 class="section__titulo">TAKE AWAY</h2>
+            </div>
+            <div>
+                <p class="section__subtitulo">DIAS Y HORARIOS PARA QUE SE PUEDA PEDIR</p>
+            </div>
+            <div class="reservas-btn">
+                <a href="">DELIVERY</a>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="divisor"></div>
+        <div>
+            <h2 class="section__titulo">CONTACTO</h2>
+        </div>
+        <div class="section__subtitulo">
+            <p>DINOS QUE PIENSAS Y COMO LO HACEMOS</p>
+        </div>
+        
+        <div class="section__contacto">
+            <div class="section__contacto-item-1">
+                <form id="contact-form">
+                    <div class="form-input">
+                        <label for="from_name">¿Cómo se llama?</label>
+                        <input type="text" name="from_name" id="from_name" placeholder="Nombre y Apellido">
+                      </div>
+                    <div class="form-input">
+                        <label for="email">Correo Electronico</label>
+                        <input type="email" name="email" placeholder="Ejemplo@mail.com">
+                    </div>
+                    <div class="form-input">
+                        <label for="phone">Número de Teléfono</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+54 9 1234 5678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </div>
+                    <div class="form-input message">
+                        <label for="message">Comentarios</label>
+                        <textarea type="text" name="message" id="message" placeholder="Deje su mensaje"></textarea>
+                    </div>
+                    <div class="form-input">
+                        <input type="submit" id="button" value="Enviar" >
+                    </div>
+                </form>
+            </div>
+            <div class="section__contacto-item-2">
+                <div class="maps-section">
+                    <h2>Encuéntranos</h2>
+                    <div class="maps-container">
+                        <!-- Reemplaza el 'src' con tu propio enlace de inserción de Google Maps -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2492045474633!2d144.9560543156813!3d-37.81720957975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1b9b9d9%3A0x5045675218ce6e0!2sVictoria%20Harbour%2C%20Docklands%20VIC%203008%2C%20Australia!5e0!3m2!1sen!2sau!4v1641329513725!5m2!1sen!2sau" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer id="footer">
+    <div class="social-media">
+        <a href="https://" target="_blank" class="social-media__link"><img src="image/webp/tiktok400x400.webp" alt="Tiktok"></a>
+        <a href="https://" target="_blank" class="social-media__link"><img src="image/webp/facebook400x400.webp" alt="Facebook"></a>
+        <a href="https://" target="_blank" class="social-media__link"><img src="image/webp/whatsapp400x400.webp" alt="Whatsapp"></a>
+        <a href="https://" target="_blank" class="social-media__link"><img src="image/webp/instagram400x400.webp" alt="Instagram"></a>
+    </div>
+    <div class="footer__link">
+        <div>
+            <ul>
+                <li>Contacto</li>
+                <li>About Us</li>
+                <li>Terms & Conditions</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Careers</li>
+                <li>Change country</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

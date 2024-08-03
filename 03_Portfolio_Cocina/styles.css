@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+/************************** COLOR **************************/
+:root {
+  /* Paleta A */
+  --color-a1: #f1975e;
+  --color-a2: #cf8151;
+  --color-a3: #fa9b62;
+  --color-a4: #ad6c44;
+  --color-a5: #8b5736;
+  --color-a6: #694229;
+  /* Header */
+  --color-header: #17151b;
+  /* Fondo */
+  --color-header: #17151b;  
+  /* Letras */
+  --color-letra: #fff;
+  --color-letra2: #c1c1c1;
+
+  --font-family: "Montserrat", sans-serif;
+  --font-optical-sizing: auto;
+  --font-weight: <weight>;
+  --font-style: normal;
+}
+/************************** COLOR END **************************/
+/************************** BODY **************************/
+body {
+    font-family: var(--font-family);
+    background-image: url(image/webp/Proyecto\ nuevo.webp);
+    background-size: contain;
+    background-position: center center;
+    color: var(--color-letra);
+}
+body, div, ul, nav, header, footer, p, a, li, label, body, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.section__titulo{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.section__subtitulo{
+    font-size: .9rem;
+    text-align: center;
+}
+/**************************************************/
+.header__nav-list{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: var(--color-a6);
+    gap: 25px;
+    list-style: none;
+}
+
+.header__nav-item a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+#main{
+    background-image: url(image/imagenes-restaurante/Proyecto-nuevo.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: .8rem;
+    width: 100%;
+    height: 300px;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    background-color: var(--color-a6);
+}
+.main-btn a{
+    text-decoration: none;
+    background-color: var(--color-a6);
+    color: var(--color-letra);
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+#menu{
+    background-color: var(--color-a5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+.menu__lista{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+.menu__lista-item{
+    flex-direction: column;
+    text-align: left;
+}
+.menu__lista-item p{
+    font-size: .8rem;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.menu__lista-item-p{
+    display: flex;
+    justify-content: space-between;
+}
+
+#reservas{
+    text-align: center;
+    padding: 40px 10px;
+}
+.reservas-child{
+    padding: 20px 0;
+}
+.section__titulo,.section__subtitulo{
+    margin-bottom: 20px;
+}
+.reservas-btn{
+    margin-top: 20px;
+}
+.reservas-btn a{
+    text-decoration: none;
+    background-color: var(--color-a6);
+    color: var(--color-letra);
+    padding: 10px 30px;
+}
+
+
+/*************************************************/
+.section__contacto{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 10px;
+}
+.section__contacto-item-1, .section__contacto-item-2{
+    flex: 1;
+    padding: 10px;
+}
+.section__contacto-item-1{
+    grid-template-columns: 400px;
+    font-family: sans-serif;
+    text-align: left;
+    justify-content: center;
+    padding: 30px 0;
+}
+.section__contacto-item-1 label{
+    padding: 10px 0px;
+}
+.section__contacto-item-1 input, textarea{
+    width: 100%;
+    padding: 6px 15px;
+    border: none;
+    border: 1px solid var(--color-a6);
+    box-shadow: 0px 0px 15px var(--color-a6);
+    background-color: var(--color-a3);
+    border-radius: 4px;
+    color: var(--color-header);
+    font-size: 1rem;
+}
+.section__contacto-item-1 textarea{
+    min-width: 100%;
+    resize: none;
+    height: 180px;
+    font-family: sans-serif;
+}
+.form-input{
+    margin-bottom: 10px;
+}
+
+.maps-section {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.maps-container {
+    width: 100%;
+    height: 300px; /* Puedes ajustar la altura según tus necesidades */
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/*****************************************/
+.social-media {
+    display: flex; 
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.social-media__link {
+    display: inline-block;
+    width: 70px;
+    height: auto;
+    text-decoration: none;
+}
+
+.social-media__link img {
+    width: 100%;
+}
+
+/**********************/
+#footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15%;
+    background-color: var(--color-a6);
+}
+.footer__link li{
+    padding: 4px 0;
+}
