@@ -356,21 +356,21 @@ input:focus, textarea:focus, select:focus {
 
 
 .portfolio__ropa{
-    background-image: url(image/ropa-captura.png);
+    background-image: url(image/icono-arriba.webp);
     background-size: cover;
     max-width: 350px;
     min-width: 350px;
     margin: auto;
 }
 .portfolio__cocina{
-    background-image: url(image/cocina-captura.PNG);
+    background-image: url(image/icono-arriba.webp);
     background-size: cover;
     max-width: 350px;
     min-width: 350px;
     margin: auto;
 }
 .portfolio__arte{
-    background-image: url(image/arte-captura.PNG);
+    background-image: url(image/icono-arriba.webp);
     background-size: cover;
     max-width: 350px;
     min-width: 350px;
